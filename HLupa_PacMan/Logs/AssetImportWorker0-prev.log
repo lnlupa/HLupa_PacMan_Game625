@@ -1,0 +1,753 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.38f1 (8f5fde82e2dc) revision 9396190'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 32590 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lnlup/OneDrive/Desktop/GitHub/HLupa_PacMan_Game625/HLupa_PacMan
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49839
+Successfully changed project path to: C:/Users/lnlup/OneDrive/Desktop/GitHub/HLupa_PacMan_Game625/HLupa_PacMan
+C:/Users/lnlup/OneDrive/Desktop/GitHub/HLupa_PacMan_Game625/HLupa_PacMan
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.38f1 (8f5fde82e2dc)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lnlup/OneDrive/Desktop/GitHub/HLupa_PacMan_Game625/HLupa_PacMan/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
+    Vendor:   
+    VRAM:     8010 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002684 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 27.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.523 seconds
+Domain Reload Profiling:
+	ReloadAssembly (523ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (392ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (144ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (28ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003216 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Domain Reload Profiling:
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (709ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (237ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1521 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.1 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 2.410500 ms (FindLiveObjects: 0.119400 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.170000 ms  DeleteObjects: 0.072300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.004207 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.7 MB.
+System memory in use after: 42.8 MB.
+
+Unloading 114 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 3.806900 ms (FindLiveObjects: 0.157300 ms CreateObjectMapping: 0.073900 ms MarkObjects: 3.464600 ms  DeleteObjects: 0.110200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 109 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 42.4 MB.
+System memory in use after: 42.5 MB.
+
+Unloading 114 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 2.254800 ms (FindLiveObjects: 0.104500 ms CreateObjectMapping: 0.047600 ms MarkObjects: 2.035900 ms  DeleteObjects: 0.066200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 198.105955 seconds.
+  path: Assets/_ChompMan-PM
+  artifactKey: Guid(3400fac56b841274fae70e26240e7d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM using Guid(3400fac56b841274fae70e26240e7d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197a664049b3446ad4d2083c78983a49') in 0.002261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.800694 seconds.
+  path: Assets/_ChompMan-PM/Prefabs
+  artifactKey: Guid(e4c6263f2f9802844bbff6dffecb11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs using Guid(e4c6263f2f9802844bbff6dffecb11d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f608215e7330cc6a7c0a7a325263a1') in 0.002137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.170936 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters
+  artifactKey: Guid(ad1d807701bd44942bfaab9e52ae27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters using Guid(ad1d807701bd44942bfaab9e52ae27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f8a352a1efb0b58fc4d8c8934ed032') in 0.002054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084876 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Chomp.prefab
+  artifactKey: Guid(d33249e5ae722fb40ad2807c439696d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Chomp.prefab using Guid(d33249e5ae722fb40ad2807c439696d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb0ef7d2a15158c1c708e82d847ab9a') in 0.303672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_LitBlue Variant.prefab
+  artifactKey: Guid(41f5bb0172a94a4459eee9900b6bf02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_LitBlue Variant.prefab using Guid(41f5bb0172a94a4459eee9900b6bf02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4cc2dfdc045376ed0014a74d587216') in 0.107287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Orange Variant.prefab
+  artifactKey: Guid(bbf054d6e436c51468be981115a84991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Orange Variant.prefab using Guid(bbf054d6e436c51468be981115a84991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc50234a8e5e7ad5b8e4e637ff75bebd') in 0.029144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost.prefab
+  artifactKey: Guid(f5b04c00596c68849bce306679cbfc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost.prefab using Guid(f5b04c00596c68849bce306679cbfc06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf848c903a53c1fa4b86c9af986eb2d') in 0.021110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Pink Variant.prefab
+  artifactKey: Guid(f4c0092c8046f484a80394f3f076d9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Pink Variant.prefab using Guid(f4c0092c8046f484a80394f3f076d9d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb9ba5179df2d72e058254a2def64d38') in 0.018551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Red Variant.prefab
+  artifactKey: Guid(60c2480153d4da841ab193c749b9e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Characters/Ghost_Red Variant.prefab using Guid(60c2480153d4da841ab193c749b9e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2f4126a5631c42cbdbed911c584222') in 0.020462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.408851 seconds.
+  path: Assets/_ChompMan-PM/Mesh
+  artifactKey: Guid(421ef77b75fdef646b7e45db8b74f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Mesh using Guid(421ef77b75fdef646b7e45db8b74f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5174c98c2e6bac092e1ef2eac4404642') in 0.001975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.805185 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment
+  artifactKey: Guid(43a118d05c13ee345a9fe665fcda63ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment using Guid(43a118d05c13ee345a9fe665fcda63ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2058b71d14cec4a1d64ac1f3076cbe7e') in 0.002275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057703 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01.prefab
+  artifactKey: Guid(e6526052046af5941943d80d7d4d4f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01.prefab using Guid(e6526052046af5941943d80d7d4d4f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d2e8553fffd05289bcc810c33f5382') in 0.204152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_YellowRed.prefab
+  artifactKey: Guid(a35802cbcbc46ae4680604cf034aabe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_YellowRed.prefab using Guid(a35802cbcbc46ae4680604cf034aabe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc658f605e296699247bae317007bb57') in 0.019784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_Neon.prefab
+  artifactKey: Guid(70fcc9f55ea0ad74bb6799e5690cb4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_Neon.prefab using Guid(70fcc9f55ea0ad74bb6799e5690cb4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7296503392cebf69b73a6d101d0cd7f') in 0.161595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_Gray.prefab
+  artifactKey: Guid(2b5eb7ab0572116459a30704287fecea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_Gray.prefab using Guid(2b5eb7ab0572116459a30704287fecea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4850cbe2e75a50d2b5e72ee1e107bd4') in 0.019426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_OrageRed.prefab
+  artifactKey: Guid(7bb5d66d5f0caa94dbf73c83f062ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_01_OrageRed.prefab using Guid(7bb5d66d5f0caa94dbf73c83f062ec5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30b4e6632ecb6585740b3663d32756b') in 0.018751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.556847 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo
+  artifactKey: Guid(d6e40c5321cf0a4408228ea4e92a0fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo using Guid(d6e40c5321cf0a4408228ea4e92a0fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4e8cf6f256044213b2677dfa7933f9') in 0.002458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031193 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_GroundPlace.prefab
+  artifactKey: Guid(482e4546ad0203944961c8ecf7d3b390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_GroundPlace.prefab using Guid(482e4546ad0203944961c8ecf7d3b390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8b0061b0827b305582c71fbd87eb06') in 0.012658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_07.prefab
+  artifactKey: Guid(0233dc04347989e4da33675975391794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_07.prefab using Guid(0233dc04347989e4da33675975391794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3bcd5e64bb35462ecb8d7dbdcc62c9') in 0.021692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_05.prefab
+  artifactKey: Guid(5246c140e92fd544a921c04bb8d9f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_05.prefab using Guid(5246c140e92fd544a921c04bb8d9f124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f52ee3422701d2199b436bca6364e2') in 0.020843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_07.prefab
+  artifactKey: Guid(7fca7ee885aa6aa4c84ad0c00f8b24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_07.prefab using Guid(7fca7ee885aa6aa4c84ad0c00f8b24aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6761fd288f121abfccd097902efc86f0') in 0.023705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_01.prefab
+  artifactKey: Guid(6fef34dd968130a4e92ae8f68b6c7883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_01.prefab using Guid(6fef34dd968130a4e92ae8f68b6c7883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726588de740844ab16a9f9ee78340eba') in 0.023255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_03.prefab
+  artifactKey: Guid(8a5cdb9359a01f04b8bcc756788fc964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_03.prefab using Guid(8a5cdb9359a01f04b8bcc756788fc964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a3b7874917b8839e4f1d05735d0dd4') in 0.027828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_06.prefab
+  artifactKey: Guid(e953438b1e8b2b248b619f24ce7e1bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_06.prefab using Guid(e953438b1e8b2b248b619f24ce7e1bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2923e3c6e76eb5a9f2cdb4abcd384724') in 0.021804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_03.prefab
+  artifactKey: Guid(997e2f1a52870bf48a98fc7d56cffb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_03.prefab using Guid(997e2f1a52870bf48a98fc7d56cffb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9c19ca9f1d52c2beca39696d39a37e') in 0.021086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_010.prefab
+  artifactKey: Guid(f45596f90fc288441b76e92ce100914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_010.prefab using Guid(f45596f90fc288441b76e92ce100914f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a021cec2356375cbbcaa58ebcca553') in 0.015452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_02.prefab
+  artifactKey: Guid(807a583b1382b7543ad9555f56ddc2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_02.prefab using Guid(807a583b1382b7543ad9555f56ddc2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7076455e59d97d71519f389b15254eb8') in 0.015118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_04.prefab
+  artifactKey: Guid(1772760b176936846be3d8d44667e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_04.prefab using Guid(1772760b176936846be3d8d44667e42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fd0043abc8c669866aafd829a65ddd') in 0.014982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_08.prefab
+  artifactKey: Guid(f144b847630c4b846b030e5d59005d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_08.prefab using Guid(f144b847630c4b846b030e5d59005d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ca9a9f07967ca9b3a2f1b8d11b6d67') in 0.016307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_04.prefab
+  artifactKey: Guid(4afada16b72bc7d448e6944a40eed4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_04.prefab using Guid(4afada16b72bc7d448e6944a40eed4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc8e30926d1cdab07b05813af41368f') in 0.015218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_02.prefab
+  artifactKey: Guid(933a648f460151542a736691a96656a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_02.prefab using Guid(933a648f460151542a736691a96656a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435cf2e79243b39d0cb7b3acf5dbe11a') in 0.015587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_06.prefab
+  artifactKey: Guid(6e1deb1866388e8448bbed0211369ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_06.prefab using Guid(6e1deb1866388e8448bbed0211369ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afca1f2a8b2be8f5ced54a5ff9beaf9') in 0.015072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_010.prefab
+  artifactKey: Guid(61e89c061fb90074e9a0e179a5083a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_010.prefab using Guid(61e89c061fb90074e9a0e179a5083a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57646966946625b6d1f30770be9b4de7') in 0.015091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_09.prefab
+  artifactKey: Guid(771571743279a314baf6dee606c4063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_09.prefab using Guid(771571743279a314baf6dee606c4063a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e76086b64dc447a787d22b43d234f02') in 0.015959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_01.prefab
+  artifactKey: Guid(99fcfb317b7f55b4da19106b0a543800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_01.prefab using Guid(99fcfb317b7f55b4da19106b0a543800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31616f1b6f8eb4342c668f28b81c5423') in 0.015877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_09.prefab
+  artifactKey: Guid(560c09726e6bc4f41ae8ae1dd678d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/Stage_Mesh_09.prefab using Guid(560c09726e6bc4f41ae8ae1dd678d632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f0bd53bb7e7881e4ae19a33e2f762f') in 0.015455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_05.prefab
+  artifactKey: Guid(bf3f900ac4cd063488e9f2e350f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_05.prefab using Guid(bf3f900ac4cd063488e9f2e350f09a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d0de073f0ccf6515fc9c1b084ae73f') in 0.014944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_08.prefab
+  artifactKey: Guid(a275dc06cd35e044ab88880f28151719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_Geo/StageBorder_Mesh_08.prefab using Guid(a275dc06cd35e044ab88880f28151719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bc5897d9a6a86e780cd0b5408a49f2') in 0.015012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.386564 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh
+  artifactKey: Guid(f45ea552aba28a04996e4a9fd3f2e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh using Guid(f45ea552aba28a04996e4a9fd3f2e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ecd187f327990c033707dbb5f3c0db') in 0.002002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035184 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_01.prefab
+  artifactKey: Guid(46c4cd3ac5c359c468c797ebdb2ecf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_01.prefab using Guid(46c4cd3ac5c359c468c797ebdb2ecf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aeb0ee86272b1ea7e95dad21bfae3fd') in 0.014060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_08.prefab
+  artifactKey: Guid(764e44cfa16f35d49b6a3c3af7852fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_08.prefab using Guid(764e44cfa16f35d49b6a3c3af7852fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3fab057fb93b36a2eab0ffbc18f8702') in 0.015339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_09.prefab
+  artifactKey: Guid(a3b130b1665f9674db657dc847d2ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_09.prefab using Guid(a3b130b1665f9674db657dc847d2ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b912a1aacc7e0806184c1ac119b2513c') in 0.016062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_25.prefab
+  artifactKey: Guid(ba18df5e500345642b8afa52eed6121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_25.prefab using Guid(ba18df5e500345642b8afa52eed6121e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64642cb58d3c21f581bd4b6d1099cfe4') in 0.014881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_14.prefab
+  artifactKey: Guid(06ae5bab5325f07419387af863bb3599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_14.prefab using Guid(06ae5bab5325f07419387af863bb3599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7819e9de0a1cf4f0ba76f0116394f46') in 0.015797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_07.prefab
+  artifactKey: Guid(b83549e8eda5f3349bf69e6661ecf7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_07.prefab using Guid(b83549e8eda5f3349bf69e6661ecf7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925e02b3a3561cdd0acf09ee6d291d38') in 0.016084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_02.prefab
+  artifactKey: Guid(8042f617cdc65fd42b3399e88add3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_02.prefab using Guid(8042f617cdc65fd42b3399e88add3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98d2c976dd59df960f5b912b69e90c6') in 0.014530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_06.prefab
+  artifactKey: Guid(71d9237a5c4b29046ae8f163900f6706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_06.prefab using Guid(71d9237a5c4b29046ae8f163900f6706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d24c3d5bb6c88340cd16d6b3dcabfe6') in 0.014783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_15.prefab
+  artifactKey: Guid(ad04e985d3fccf644ae9f80844273971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_15.prefab using Guid(ad04e985d3fccf644ae9f80844273971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1076b00b5db8744e05747606f18e8d49') in 0.015041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_05.prefab
+  artifactKey: Guid(e573bacc17719cd43947de737e87bc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_05.prefab using Guid(e573bacc17719cd43947de737e87bc8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebac957155bfe292c43861c70350f2a') in 0.015456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_24.prefab
+  artifactKey: Guid(5d0f1a6faab18334dae24ed822841da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_24.prefab using Guid(5d0f1a6faab18334dae24ed822841da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8e99d9654aa71b4d5f6bdcb560d409') in 0.014590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_03.prefab
+  artifactKey: Guid(940bd3107d0eca140be67658614cca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_03.prefab using Guid(940bd3107d0eca140be67658614cca79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4bbbfffe2470d4eee0b6055235d81c') in 0.015135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_18.prefab
+  artifactKey: Guid(126af22c868f5fb47803e75767d9c25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_18.prefab using Guid(126af22c868f5fb47803e75767d9c25a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c77ff0abb02e47578595aa56d01736f') in 0.015047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_04.prefab
+  artifactKey: Guid(c69324585cb268f498aec813b972336c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_04.prefab using Guid(c69324585cb268f498aec813b972336c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd94cc218b283b5ade2ae3346eaae70') in 0.016420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_17.prefab
+  artifactKey: Guid(2cfb9c91ce79b3b4ba7f5489c8fc875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_17.prefab using Guid(2cfb9c91ce79b3b4ba7f5489c8fc875f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1119e62c34bb240ff6c7fc0c184543') in 0.014991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_11.prefab
+  artifactKey: Guid(c7420859b74ae2a43ad9df68706b5d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_11.prefab using Guid(c7420859b74ae2a43ad9df68706b5d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d7ef35792bd7a4376c3c8470135839') in 0.016176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_20.prefab
+  artifactKey: Guid(180665f4f876c3547a5227433bf8830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_20.prefab using Guid(180665f4f876c3547a5227433bf8830a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d574d8f6314a71dd139f48a72cae0e') in 0.014611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_19.prefab
+  artifactKey: Guid(ad528950a6fb36d4ba50434776abe65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_19.prefab using Guid(ad528950a6fb36d4ba50434776abe65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db15abe5f77d7a6931ec4f15764138ff') in 0.015948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_21.prefab
+  artifactKey: Guid(d7b3ac84a21b7b34d8bedcaa8f09d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_21.prefab using Guid(d7b3ac84a21b7b34d8bedcaa8f09d32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ab6ef470124886bf0593eaf05b6d17') in 0.015639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_23.prefab
+  artifactKey: Guid(6f91b9e293d15fb4bb49a374e200e6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_23.prefab using Guid(6f91b9e293d15fb4bb49a374e200e6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bd0ebf9956f761372514ee515c109d') in 0.014943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_27.prefab
+  artifactKey: Guid(1d31c434adc7d9e45a1ecc3691a67c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_27.prefab using Guid(1d31c434adc7d9e45a1ecc3691a67c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a045df838158f23254a1a24bf9c9041') in 0.015967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_12.prefab
+  artifactKey: Guid(5eea77cb514ca474c8b20fbd7690cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_12.prefab using Guid(5eea77cb514ca474c8b20fbd7690cedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602c9a524689de602a9e59f56c848640') in 0.015397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_10.prefab
+  artifactKey: Guid(4c5d18f1bebb0b04fb7b6ad0be856935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_10.prefab using Guid(4c5d18f1bebb0b04fb7b6ad0be856935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf24bfe753895318d4ae2bc4b83f387') in 0.014784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_16.prefab
+  artifactKey: Guid(195d684c24e31f2479fb55a3db67f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_16.prefab using Guid(195d684c24e31f2479fb55a3db67f1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c173aec42bf7b065ac441726e673d97e') in 0.014845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_22.prefab
+  artifactKey: Guid(10695e4246ac6d34e8c223ad9b1d62b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_22.prefab using Guid(10695e4246ac6d34e8c223ad9b1d62b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dc4248472e37eb7c8a54e0c44ac04a') in 0.014816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_13.prefab
+  artifactKey: Guid(008cebd59d26d1244ab4c9f0ef718a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_13.prefab using Guid(008cebd59d26d1244ab4c9f0ef718a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a47aca6c66a637fad264648441cc54') in 0.015692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_26.prefab
+  artifactKey: Guid(ccb14a8b846fc7941b85f446b0c9a807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Enviornment/Maze_ModularMesh/Stage_ModularMesh_26.prefab using Guid(ccb14a8b846fc7941b85f446b0c9a807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f860f03170aff09e9a98d563fc1de3d5') in 0.018238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.434773 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Props
+  artifactKey: Guid(ee0778a11efc2d54892bc1fd9e497230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Props using Guid(ee0778a11efc2d54892bc1fd9e497230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317af8865aca085258f7a724865f001a') in 0.001950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058016 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Props/Cherry Variant.prefab
+  artifactKey: Guid(8dadb4a5d9de8a941b6bb68d601ad73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Props/Cherry Variant.prefab using Guid(8dadb4a5d9de8a941b6bb68d601ad73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c153ce043f8d87cc3e07f818c7468520') in 0.020711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/_ChompMan-PM/Prefabs/Props/PowerPellet.prefab
+  artifactKey: Guid(296eeb3b9bc02fb44927747cd46985d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Prefabs/Props/PowerPellet.prefab using Guid(296eeb3b9bc02fb44927747cd46985d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d52bdd62f037e58189e4bef4247705') in 0.028762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.102983 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9168112a17b07f3ee034ca0d2dc1544d') in 0.002411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.640249 seconds.
+  path: Assets/_ChompMan-PM/Scenes
+  artifactKey: Guid(925158b60fcd91e48a033c0dbe9233df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Scenes using Guid(925158b60fcd91e48a033c0dbe9233df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5781b08f0da21ab89c728858fe1f8a63') in 0.001901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.906278 seconds.
+  path: Assets/_ChompMan-PM/Scenes/Level_01
+  artifactKey: Guid(425ec061c847ddd48ac744273f0ef79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Scenes/Level_01 using Guid(425ec061c847ddd48ac744273f0ef79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1d459e035726de17b789d90fc81a7e') in 0.002153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.682236 seconds.
+  path: Assets/_ChompMan-PM/Materials
+  artifactKey: Guid(a592cc9ccdf138e4eb0a01289d1aecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials using Guid(a592cc9ccdf138e4eb0a01289d1aecee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ed982965795419e473b7a3602a667e') in 0.001836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.419883 seconds.
+  path: Assets/_ChompMan-PM/Audio
+  artifactKey: Guid(bb8782cc8a1bd324d81720d6ddb8ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio using Guid(bb8782cc8a1bd324d81720d6ddb8ac2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b24b697c6954eb7a04a55f7c9b5b48') in 0.002244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.742718 seconds.
+  path: Assets/_ChompMan-PM/Audio/audioblocks-boss-fight_HNruquncL.wav
+  artifactKey: Guid(2d233e167baa8ac4b818ddc811b0d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/audioblocks-boss-fight_HNruquncL.wav using Guid(2d233e167baa8ac4b818ddc811b0d842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab91edaab83cd21f380bd93de6fa238') in 0.038878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/_ChompMan-PM/Audio/audioblocks-video-game-wrong-choice_HYQGhkMIAvU.wav
+  artifactKey: Guid(f7adba9901fc71847b0d3160957bfa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Audio/audioblocks-video-game-wrong-choice_HYQGhkMIAvU.wav using Guid(f7adba9901fc71847b0d3160957bfa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ca335342cdeb6439c782596b193b83') in 0.009622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.343129 seconds.
+  path: Assets/_ChompMan-PM/Materials/Dots_MAT.mat
+  artifactKey: Guid(c6a50efaab0081444b054e13abc254fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Dots_MAT.mat using Guid(c6a50efaab0081444b054e13abc254fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c558ed92059f5b960a7560f2dbaec0ae') in 0.184713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.881702 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters
+  artifactKey: Guid(90e8c1de91639ec4da276bcd526a689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters using Guid(90e8c1de91639ec4da276bcd526a689d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e154c7e699d5f9f44dbbc1bb1d1358') in 0.002013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067023 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/Chomp_MAT.mat
+  artifactKey: Guid(01df7ad55b5244c4791157a1844776ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/Chomp_MAT.mat using Guid(01df7ad55b5244c4791157a1844776ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee9c9f2884e7e9294461a7acde92b4a') in 0.022299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/Ghost_MAT.mat
+  artifactKey: Guid(07a319e011269d640bd54c8681787d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/Ghost_MAT.mat using Guid(07a319e011269d640bd54c8681787d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e05b9057bb5571b86cbd639943ba9e7') in 0.030854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/GhostLitBlue_MAT.mat
+  artifactKey: Guid(26bcbe1ab7bf213448c16169f6208712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/GhostLitBlue_MAT.mat using Guid(26bcbe1ab7bf213448c16169f6208712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011bdfb4abf25b9faa7507811e1684cc') in 0.028802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/GhostRed_MAT.mat
+  artifactKey: Guid(6bed19597475a274a834a0c10030ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/GhostRed_MAT.mat using Guid(6bed19597475a274a834a0c10030ec22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49105b73d73d7d92dfed47881c985573') in 0.029874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/ScaredGhost_MAT.mat
+  artifactKey: Guid(c31e5fac1beb02f4e8774fb2e51e87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/ScaredGhost_MAT.mat using Guid(c31e5fac1beb02f4e8774fb2e51e87a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a922df0bd90a80875f3b1f55d68dba48') in 0.031518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/GhostPink_MAT.mat
+  artifactKey: Guid(67282bf1543d7094f85385b73ba1cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/GhostPink_MAT.mat using Guid(67282bf1543d7094f85385b73ba1cb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aab07ac4bd9b64183a19d198e22de3f') in 0.030308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/_ChompMan-PM/Materials/Characters/GhostOrange_MAT.mat
+  artifactKey: Guid(70ba22ec1dded714d89bcdab0542907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_ChompMan-PM/Materials/Characters/GhostOrange_MAT.mat using Guid(70ba22ec1dded714d89bcdab0542907c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db595fb5b01f6ed79df1cbdac824e11') in 0.035708 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Domain Reload Profiling:
+	ReloadAssembly (863ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (695ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (267ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1565 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2068.
+Total: 2.387900 ms (FindLiveObjects: 0.127300 ms CreateObjectMapping: 0.049500 ms MarkObjects: 2.165000 ms  DeleteObjects: 0.045200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
