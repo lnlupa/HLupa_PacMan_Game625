@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637975709820176405
+      ticks: 637979927644614894
     m_Hash: 452538145
   m_LockFileStatus:
     m_FilePath: C:/Users/lnlup/OneDrive/Desktop/GitHub/HLupa_PacMan_Game625/HLupa_PacMan/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637975709820236252
+      ticks: 637979927644684715
     m_Hash: 321665533
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

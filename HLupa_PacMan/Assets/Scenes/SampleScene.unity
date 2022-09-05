@@ -106,15 +106,15 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
-    agentRadius: 0.5
-    agentHeight: 2
-    agentSlope: 45
+    agentRadius: 0.3
+    agentHeight: 0.5
+    agentSlope: 35
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
-    minRegionArea: 2
+    minRegionArea: 1
     manualCellSize: 0
-    cellSize: 0.16666667
+    cellSize: 0.1
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 7c10828acf7296247af5c46997bf8852, type: 2}
 --- !u!1001 &10135572
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,8 +135,12 @@ PrefabInstance:
       value: StageBorder_Mesh_08 (2)
       objectReference: {fileID: 0}
     - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4992271397354454, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_RootOrder
@@ -288,6 +292,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038745620448569506, guid: 6f91b9e293d15fb4bb49a374e200e6f9,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038745620448569506, guid: 6f91b9e293d15fb4bb49a374e200e6f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6341910697625660489, guid: 6f91b9e293d15fb4bb49a374e200e6f9,
         type: 3}
@@ -723,6 +737,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_15 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1857429226159891468, guid: ad04e985d3fccf644ae9f80844273971,
         type: 3}
       propertyPath: m_RootOrder
@@ -893,6 +917,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_22 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2403144001333947359, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
         type: 3}
       propertyPath: m_RootOrder
@@ -1023,6 +1057,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_05
       objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e573bacc17719cd43947de737e87bc8e, type: 3}
 --- !u!4 &92424893 stripped
@@ -1044,7 +1088,7 @@ GameObject:
   m_Name: Piece_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &98082164
@@ -1077,7 +1121,7 @@ GameObject:
   m_Name: Piece_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &99018128
@@ -1748,6 +1792,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_15 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1857429226159891468, guid: ad04e985d3fccf644ae9f80844273971,
         type: 3}
       propertyPath: m_RootOrder
@@ -1917,6 +1971,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_13 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3624967171938315717, guid: 008cebd59d26d1244ab4c9f0ef718a81,
         type: 3}
@@ -2333,6 +2397,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_20 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180665f4f876c3547a5227433bf8830a, type: 3}
 --- !u!4 &249085456 stripped
@@ -2341,6 +2415,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 249085455}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &251934465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9163715946089988518, guid: bbf054d6e436c51468be981115a84991,
+    type: 3}
+  m_PrefabInstance: {fileID: 571830482}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &251934466
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251934465}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.41859728
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.2533157
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &251934468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 251934465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b035208381b1346a20feaa92e135ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pacMan: {fileID: 564638687}
+  FearMode: 0
+  killDistance: 0.5
+  respawnPoint: {fileID: 1389742985}
 --- !u!1 &252813512
 GameObject:
   m_ObjectHideFlags: 0
@@ -2502,6 +2620,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_17 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f, type: 3}
@@ -2767,6 +2895,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_10 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c5d18f1bebb0b04fb7b6ad0be856935, type: 3}
@@ -3223,6 +3361,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_11 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7420859b74ae2a43ad9df68706b5d11, type: 3}
 --- !u!4 &347361154 stripped
@@ -3527,6 +3675,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6712262794273017177, guid: b83549e8eda5f3349bf69e6661ecf7c5,
         type: 3}
@@ -4038,6 +4196,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_11
       objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7420859b74ae2a43ad9df68706b5d11, type: 3}
 --- !u!4 &426502891 stripped
@@ -4469,7 +4637,7 @@ GameObject:
   m_Name: Piece_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &447999119
@@ -4489,6 +4657,50 @@ Transform:
   m_Father: {fileID: 1721515635}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &451824368 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 722881024703805765, guid: f4c0092c8046f484a80394f3f076d9d7,
+    type: 3}
+  m_PrefabInstance: {fileID: 35644980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!195 &451824369
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451824368}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.41859728
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.2533157
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &451824370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451824368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b035208381b1346a20feaa92e135ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pacMan: {fileID: 564638687}
+  FearMode: 0
+  killDistance: 0.5
+  respawnPoint: {fileID: 1389742985}
 --- !u!1 &467282245
 GameObject:
   m_ObjectHideFlags: 0
@@ -4597,7 +4809,7 @@ GameObject:
   m_Name: Piece_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &476050672
@@ -4877,6 +5089,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_20
       objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180665f4f876c3547a5227433bf8830a, type: 3}
 --- !u!4 &489766738 stripped
@@ -5086,6 +5308,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_23 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038745620448569506, guid: 6f91b9e293d15fb4bb49a374e200e6f9,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038745620448569506, guid: 6f91b9e293d15fb4bb49a374e200e6f9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6341910697625660489, guid: 6f91b9e293d15fb4bb49a374e200e6f9,
         type: 3}
@@ -5692,6 +5924,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_03
       objectReference: {fileID: 0}
+    - target: {fileID: 7573263160066575715, guid: 940bd3107d0eca140be67658614cca79,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7573263160066575715, guid: 940bd3107d0eca140be67658614cca79,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 940bd3107d0eca140be67658614cca79, type: 3}
 --- !u!4 &595243858 stripped
@@ -6182,6 +6424,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418715890839708472, guid: 71d9237a5c4b29046ae8f163900f6706,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418715890839708472, guid: 71d9237a5c4b29046ae8f163900f6706,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6416291247693970970, guid: 71d9237a5c4b29046ae8f163900f6706,
         type: 3}
@@ -6870,7 +7122,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &706532654
 PrefabInstance:
@@ -6883,6 +7135,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_22 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2403144001333947359, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
         type: 3}
@@ -6977,7 +7239,7 @@ PrefabInstance:
     - target: {fileID: 7308235905142051746, guid: d33249e5ae722fb40ad2807c439696d9,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7308235905142051746, guid: d33249e5ae722fb40ad2807c439696d9,
         type: 3}
@@ -8278,6 +8540,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_07 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6712262794273017177, guid: b83549e8eda5f3349bf69e6661ecf7c5,
         type: 3}
       propertyPath: m_RootOrder
@@ -8889,6 +9161,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_24
       objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d0f1a6faab18334dae24ed822841da4, type: 3}
 --- !u!4 &858061759 stripped
@@ -9195,7 +9477,7 @@ GameObject:
   m_Name: Piece_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &889333329
@@ -9383,6 +9665,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_20 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180665f4f876c3547a5227433bf8830a, type: 3}
 --- !u!4 &900474800 stripped
@@ -9457,6 +9749,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c5d18f1bebb0b04fb7b6ad0be856935, type: 3}
@@ -9792,6 +10094,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c5d18f1bebb0b04fb7b6ad0be856935, type: 3}
 --- !u!4 &940439690 stripped
@@ -9867,6 +10179,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_17 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f, type: 3}
 --- !u!4 &942986648 stripped
@@ -9875,6 +10197,50 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 942986647}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &953190853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1484215935965174168, guid: 60c2480153d4da841ab193c749b9e87c,
+    type: 3}
+  m_PrefabInstance: {fileID: 923981286}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &953190854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953190853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b035208381b1346a20feaa92e135ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pacMan: {fileID: 564638687}
+  FearMode: 0
+  killDistance: 0.5
+  respawnPoint: {fileID: 1389742985}
+--- !u!195 &953190855
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 953190853}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.41859728
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.2533157
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &955441016
 GameObject:
   m_ObjectHideFlags: 0
@@ -9970,6 +10336,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955441016}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &956088884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6706788707963437449, guid: 41f5bb0172a94a4459eee9900b6bf02c,
+    type: 3}
+  m_PrefabInstance: {fileID: 153960000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &956088885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956088884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b035208381b1346a20feaa92e135ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pacMan: {fileID: 564638687}
+  FearMode: 0
+  killDistance: 0.5
+  respawnPoint: {fileID: 1389742985}
+--- !u!195 &956088886
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 956088884}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.41859728
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2.2533157
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1001 &959313721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9981,6 +10391,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3624967171938315717, guid: 008cebd59d26d1244ab4c9f0ef718a81,
         type: 3}
@@ -10221,7 +10641,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &972314910
 GameObject:
@@ -10236,7 +10656,7 @@ GameObject:
   m_Name: Piece_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &972314911
@@ -10364,7 +10784,7 @@ GameObject:
   m_Name: Piece_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &986077578
@@ -10454,6 +10874,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_20 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180665f4f876c3547a5227433bf8830a, type: 3}
 --- !u!4 &1003257431 stripped
@@ -10475,7 +10905,7 @@ GameObject:
   m_Name: Piece_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1031803959
@@ -10660,6 +11090,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_17 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f, type: 3}
 --- !u!4 &1059084409 stripped
@@ -10775,8 +11215,12 @@ PrefabInstance:
       value: StageBorder_Mesh_08 (3)
       objectReference: {fileID: 0}
     - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4992271397354454, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_RootOrder
@@ -10888,6 +11332,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180665f4f876c3547a5227433bf8830a, type: 3}
@@ -11058,6 +11512,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7420859b74ae2a43ad9df68706b5d11, type: 3}
@@ -11898,7 +12362,7 @@ GameObject:
   m_Name: Piece_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1212030112
@@ -11985,6 +12449,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_24 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d0f1a6faab18334dae24ed822841da4, type: 3}
 --- !u!4 &1231524950 stripped
@@ -12004,6 +12478,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_15 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1857429226159891468, guid: ad04e985d3fccf644ae9f80844273971,
         type: 3}
@@ -12176,7 +12660,7 @@ GameObject:
   m_Name: Piece_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1247720866
@@ -12207,6 +12691,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_13 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3624967171938315717, guid: 008cebd59d26d1244ab4c9f0ef718a81,
         type: 3}
@@ -12528,6 +13022,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_16 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195d684c24e31f2479fb55a3db67f1a2, type: 3}
 --- !u!4 &1295395968 stripped
@@ -12603,6 +13107,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_20 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180665f4f876c3547a5227433bf8830a, type: 3}
 --- !u!4 &1297767123 stripped
@@ -12622,6 +13136,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_22 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2403144001333947359, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
         type: 3}
@@ -12752,6 +13276,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e573bacc17719cd43947de737e87bc8e, type: 3}
@@ -13153,6 +13687,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_15 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1857429226159891468, guid: ad04e985d3fccf644ae9f80844273971,
         type: 3}
       propertyPath: m_RootOrder
@@ -13227,6 +13771,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418715890839708472, guid: 71d9237a5c4b29046ae8f163900f6706,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4418715890839708472, guid: 71d9237a5c4b29046ae8f163900f6706,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6416291247693970970, guid: 71d9237a5c4b29046ae8f163900f6706,
         type: 3}
@@ -13416,6 +13970,36 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1387754089}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1389742985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389742986}
+  m_Layer: 0
+  m_Name: GhostHome
+  m_TagString: Untagged
+  m_Icon: {fileID: -5938655980376293919, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1389742986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389742985}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.169, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1390995488
 GameObject:
   m_ObjectHideFlags: 0
@@ -13701,12 +14285,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397559457}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1405771827 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-    type: 3}
-  m_PrefabInstance: {fileID: 2046580342}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1418345819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13719,8 +14297,12 @@ PrefabInstance:
       value: StageBorder_Mesh_08 (4)
       objectReference: {fileID: 0}
     - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4992271397354454, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_RootOrder
@@ -13777,6 +14359,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_13 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512138337082948139, guid: 008cebd59d26d1244ab4c9f0ef718a81,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3624967171938315717, guid: 008cebd59d26d1244ab4c9f0ef718a81,
         type: 3}
@@ -13907,6 +14499,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_16 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195d684c24e31f2479fb55a3db67f1a2, type: 3}
@@ -14933,6 +15535,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_08
       objectReference: {fileID: 0}
+    - target: {fileID: 5461398252482787914, guid: 764e44cfa16f35d49b6a3c3af7852fed,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461398252482787914, guid: 764e44cfa16f35d49b6a3c3af7852fed,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 764e44cfa16f35d49b6a3c3af7852fed, type: 3}
 --- !u!4 &1505449080 stripped
@@ -15388,6 +16000,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_05 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e573bacc17719cd43947de737e87bc8e, type: 3}
 --- !u!4 &1555240829 stripped
@@ -15504,7 +16126,7 @@ GameObject:
   m_Name: Piece_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1570951395
@@ -15590,6 +16212,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_20 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3811450203398510450, guid: 180665f4f876c3547a5227433bf8830a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 180665f4f876c3547a5227433bf8830a, type: 3}
@@ -15761,6 +16393,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_10 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c5d18f1bebb0b04fb7b6ad0be856935, type: 3}
 --- !u!4 &1595650852 stripped
@@ -15800,9 +16442,8 @@ Transform:
   - {fileID: 1767581024}
   - {fileID: 1990570681}
   - {fileID: 893950598}
-  - {fileID: 1405771827}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1616098386
 GameObject:
@@ -16197,7 +16838,7 @@ GameObject:
   m_Name: Piece_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1631427756
@@ -16526,6 +17167,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_24 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d0f1a6faab18334dae24ed822841da4, type: 3}
 --- !u!4 &1680980062 stripped
@@ -16601,6 +17252,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_16 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195d684c24e31f2479fb55a3db67f1a2, type: 3}
 --- !u!4 &1692191215 stripped
@@ -16675,6 +17336,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e573bacc17719cd43947de737e87bc8e, type: 3}
@@ -17078,6 +17749,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_16
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8591127975728661368, guid: 195d684c24e31f2479fb55a3db67f1a2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 195d684c24e31f2479fb55a3db67f1a2, type: 3}
@@ -17580,6 +18261,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_04
       objectReference: {fileID: 0}
+    - target: {fileID: 6806436122456503099, guid: c69324585cb268f498aec813b972336c,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806436122456503099, guid: c69324585cb268f498aec813b972336c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7844496288922705406, guid: c69324585cb268f498aec813b972336c,
         type: 3}
       propertyPath: m_RootOrder
@@ -17709,6 +18400,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6440612784011340091, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cfb9c91ce79b3b4ba7f5489c8fc875f, type: 3}
@@ -17974,6 +18675,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_11 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7420859b74ae2a43ad9df68706b5d11, type: 3}
@@ -18430,6 +19141,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_10
       objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3526780930752312750, guid: 4c5d18f1bebb0b04fb7b6ad0be856935,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c5d18f1bebb0b04fb7b6ad0be856935, type: 3}
 --- !u!4 &1868598225 stripped
@@ -18639,6 +19360,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_22
+      objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 283154891914779775, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2403144001333947359, guid: 10695e4246ac6d34e8c223ad9b1d62b4,
         type: 3}
@@ -18960,6 +19691,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_03
       objectReference: {fileID: 0}
+    - target: {fileID: 7573263160066575715, guid: 940bd3107d0eca140be67658614cca79,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7573263160066575715, guid: 940bd3107d0eca140be67658614cca79,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 940bd3107d0eca140be67658614cca79, type: 3}
 --- !u!4 &1905902258 stripped
@@ -19074,6 +19815,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_15
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1857429226159891468, guid: ad04e985d3fccf644ae9f80844273971,
         type: 3}
@@ -19205,6 +19956,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_08
       objectReference: {fileID: 0}
+    - target: {fileID: 5461398252482787914, guid: 764e44cfa16f35d49b6a3c3af7852fed,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5461398252482787914, guid: 764e44cfa16f35d49b6a3c3af7852fed,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 764e44cfa16f35d49b6a3c3af7852fed, type: 3}
 --- !u!4 &1914599520 stripped
@@ -19319,6 +20080,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806436122456503099, guid: c69324585cb268f498aec813b972336c,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806436122456503099, guid: c69324585cb268f498aec813b972336c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7844496288922705406, guid: c69324585cb268f498aec813b972336c,
         type: 3}
@@ -19640,6 +20411,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_24 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551001622139013328, guid: 5d0f1a6faab18334dae24ed822841da4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d0f1a6faab18334dae24ed822841da4, type: 3}
 --- !u!4 &1955931476 stripped
@@ -19715,6 +20496,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_11
       objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6833715830727002007, guid: c7420859b74ae2a43ad9df68706b5d11,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7420859b74ae2a43ad9df68706b5d11, type: 3}
 --- !u!4 &1985895465 stripped
@@ -19740,6 +20531,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6712262794273017177, guid: b83549e8eda5f3349bf69e6661ecf7c5,
         type: 3}
@@ -19910,6 +20711,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806436122456503099, guid: c69324585cb268f498aec813b972336c,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6806436122456503099, guid: c69324585cb268f498aec813b972336c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7844496288922705406, guid: c69324585cb268f498aec813b972336c,
         type: 3}
@@ -20164,75 +20975,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036950393}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &2046580342
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1595944894}
-    m_Modifications:
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288205974, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7806794671288245942, guid: f5b04c00596c68849bce306679cbfc06,
-        type: 3}
-      propertyPath: m_Name
-      value: Ghost
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f5b04c00596c68849bce306679cbfc06, type: 3}
 --- !u!1001 &2053220308
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20299,6 +21041,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298670767397965220, guid: e573bacc17719cd43947de737e87bc8e,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e573bacc17719cd43947de737e87bc8e, type: 3}
@@ -20605,6 +21357,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stage_ModularMesh_15
       objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 808164875956899330, guid: ad04e985d3fccf644ae9f80844273971,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1857429226159891468, guid: ad04e985d3fccf644ae9f80844273971,
         type: 3}
       propertyPath: m_RootOrder
@@ -20679,6 +21441,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage_ModularMesh_07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4051099126271379166, guid: b83549e8eda5f3349bf69e6661ecf7c5,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6712262794273017177, guid: b83549e8eda5f3349bf69e6661ecf7c5,
         type: 3}
@@ -20850,8 +21622,12 @@ PrefabInstance:
       value: StageBorder_Mesh_08 (1)
       objectReference: {fileID: 0}
     - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1053160938033012, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4992271397354454, guid: a275dc06cd35e044ab88880f28151719, type: 3}
       propertyPath: m_RootOrder
@@ -21475,7 +22251,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &5997352481973712004
 GameObject:
@@ -21494,7 +22270,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!33 &6000780603275571820
 MeshFilter:
