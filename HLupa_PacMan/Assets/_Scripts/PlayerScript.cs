@@ -5,13 +5,22 @@ using UnityEngine;
 
 public class PlayerScript : MonoBehaviour
 {
+    //variable for the player object
     public GameObject pacMan;
 
+    //player's controller
     CharacterController _charControl;
 
+    //pac-man's speed
     public float speed = 5;
 
+    //how many dots pac-man has eaten so far
     public int dotCount = 0;
+
+    //messages pac-man is sending to other scripts
+    public delegate void Message();
+    //message sent to ghosts to let them know that pac-man is in powerup mode
+    public static event Message EatPowerup;
 
     private void Start()
     {
@@ -22,6 +31,7 @@ public class PlayerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //always allow for character movement
         MoveChar();
     }
 
@@ -37,14 +47,28 @@ public class PlayerScript : MonoBehaviour
             pacMan.transform.forward = move;
         }
     }
-
+    
+    //what happens when pac-man collides with the various pick-up items. which all have trigger colliders
     private void OnTriggerEnter(Collider other)
     {
+        //if the pick-up item is a basic dot/snack
         if (other.CompareTag("Snack")) 
         {
+            //pac-man's dot count is incremented and the dot is destroyed
             dotCount += 1;
             Destroy(other.gameObject);
             Debug.Log(dotCount);
+        }
+
+        //if the pick-up is a powerup
+        if (other.CompareTag("Powerup")) 
+        {
+            if (EatPowerup != null) 
+            {
+                //destroy the powerup and send out the message that the powerup was consumed
+                Destroy(other.gameObject);
+                EatPowerup();
+            }
         }
     }
 }

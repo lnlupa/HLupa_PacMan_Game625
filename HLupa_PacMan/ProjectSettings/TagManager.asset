@@ -8,6 +8,7 @@ TagManager:
   - MazeGeo
   - Teleporter
   - Snack
+  - Powerup
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 
