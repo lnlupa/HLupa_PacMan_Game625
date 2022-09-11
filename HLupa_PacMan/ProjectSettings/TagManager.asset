@@ -9,6 +9,7 @@ TagManager:
   - Teleporter
   - Snack
   - Powerup
+  - Cherry
   layers:
   - Default
   - TransparentFX

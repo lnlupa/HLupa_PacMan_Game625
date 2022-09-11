@@ -21,11 +21,16 @@ public class PlayerScript : MonoBehaviour
     public delegate void Message();
     //message sent to ghosts to let them know that pac-man is in powerup mode
     public static event Message EatPowerup;
+    public static event Message EatDot;
+    public static event Message PacReset;
+
+    public Transform PacSpawn;
 
     private void Start()
     {
         //get character controller component
         _charControl = GetComponent<CharacterController>();
+        GhostScript.PacKilled += Reset;
     }
 
     // Update is called once per frame
@@ -58,6 +63,10 @@ public class PlayerScript : MonoBehaviour
             dotCount += 1;
             Destroy(other.gameObject);
             Debug.Log(dotCount);
+            if (EatDot != null) 
+            {
+                EatDot();
+            }
         }
 
         //if the pick-up is a powerup
@@ -69,6 +78,16 @@ public class PlayerScript : MonoBehaviour
                 Destroy(other.gameObject);
                 EatPowerup();
             }
+        }
+    }
+
+    private void Reset()
+    {
+        transform.position = PacSpawn.position;
+        pacMan.SetActive(true);
+        if (PacReset != null) 
+        {
+            PacReset();
         }
     }
 }
