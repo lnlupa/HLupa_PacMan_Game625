@@ -21,28 +21,36 @@ public class GhostScript : MonoBehaviour
     //object that sets the point for the ghosts to respawn when killed
     public GameObject respawnPoint;
 
+    //locations for the ghosts to flee to
     public List<Transform> EscapePoints;
     private int currentPoint = 0;
 
+    //amount of time left before the ghosts become dangerous again
     private float TimeRemaining = 10;
-
-    //private int PacKillCount = 0;
 
     //messages ghost is sending to other scripts
     public delegate void Message();
     //message sent to the UI to say that PacMan has lost a life
     public static event Message PacKilled;
+    //message sent to the UI to say that PacMan has killed a ghost
+    public static event Message GhostKilled;
+
+    //light that turns on to indicate that they are in fear mode
+    private Light GhostLight;
 
     private void Start()
     {
         //get the ghosts' navmesh and the player object
         ghostNav = GetComponent<NavMeshAgent>();
         pacMan = GameObject.FindGameObjectWithTag("Player");
-        //respawnPoint = GameObject.FindGameObjectWithTag("Respawn");
 
         //subscribe to Pac-Man's messages about eating powerups
         PlayerScript.EatPowerup += FearModeOn;
         PlayerScript.PacReset += Reset;
+
+        //get the ghost's light and turn it off until they enter fear mode
+        GhostLight = GetComponent<Light>();
+        GhostLight.enabled = false;
     }
 
     private void Update()
@@ -50,9 +58,12 @@ public class GhostScript : MonoBehaviour
         //if the ghosts fear Pac-Man, they run from him
         if (FearMode)
         {
+            //turn on the fear mode light
+            GhostLight.enabled = true;
             Debug.Log("ghosts in fear mode");
             //Debug.LogError(currentPoint);
             RunFrom();
+            //check the fear mode timer
             if (TimeRemaining > 0)
             {
                 TimeRemaining -= Time.deltaTime;
@@ -61,14 +72,15 @@ public class GhostScript : MonoBehaviour
             {
                 FearMode = false;
             }
-            Debug.LogWarning(TimeRemaining);
+            //Debug.LogWarning(TimeRemaining);
         }
 
-        //otherwise they run toward Pac-Man
+        //otherwise they run toward Pac-Man with lights off and fear mode reset
         else 
         {
             RunTo();
             TimeRemaining = 10;
+            GhostLight.enabled = false;
         }
     }
 
@@ -77,11 +89,12 @@ public class GhostScript : MonoBehaviour
     {
         if (other.CompareTag("Player")) 
         {
+            //if in fear mode, they respawn
             if (FearMode)
             {
                 Respawn();
             }
-
+            //otherwise they kill Pac-Man
             else
             {
                 KillPacMan();
@@ -100,10 +113,10 @@ public class GhostScript : MonoBehaviour
     {
         Transform destination = EscapePoints[currentPoint];
 
+        //if Pac-Man gets too close they flee to the next point
         if (Vector3.Distance(pacMan.transform.position, destination.position) <= 5)
         {
             currentPoint = (currentPoint + 1) % EscapePoints.Count;
-            //ghostNav.SetDestination(destination.position);
         }
         else 
         {
@@ -115,7 +128,7 @@ public class GhostScript : MonoBehaviour
     //how the ghosts kill Pac-Man
     private void KillPacMan() 
     {
-        Debug.Log("kill pacman");
+        //Debug.Log("kill pacman");
         pacMan.SetActive(false);
         if (PacKilled != null) 
         {
@@ -126,9 +139,13 @@ public class GhostScript : MonoBehaviour
     //how the ghosts are killed by Pac-Man
     private void Respawn() 
     {
-       Debug.Log("kill ghost");
-       transform.position = respawnPoint.transform.position;
-       FearMode = false;
+        //Debug.Log("kill ghost");
+        transform.position = respawnPoint.transform.position;
+        FearMode = false;
+        if (GhostKilled != null) 
+        {
+            GhostKilled();
+        }
     }
 
     //switch that flips fear mode on when Pac-Man eats a powerup
@@ -137,8 +154,16 @@ public class GhostScript : MonoBehaviour
         FearMode = true;
     }
 
+    //function that resets their location to the respawn point when Pac-Man dies
     public void Reset()
     {
         transform.position = respawnPoint.transform.position;
+    }
+
+    //unsubscribe from the events on quit just in case
+    private void OnApplicationQuit()
+    {
+        PlayerScript.EatPowerup -= FearModeOn;
+        PlayerScript.PacReset -= Reset;
     }
 }

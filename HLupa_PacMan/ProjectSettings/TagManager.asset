@@ -10,6 +10,8 @@ TagManager:
   - Snack
   - Powerup
   - Cherry
+  - ScoreText
+  - LivesText
   layers:
   - Default
   - TransparentFX

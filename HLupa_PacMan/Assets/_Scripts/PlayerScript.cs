@@ -19,17 +19,19 @@ public class PlayerScript : MonoBehaviour
 
     //messages pac-man is sending to other scripts
     public delegate void Message();
-    //message sent to ghosts to let them know that pac-man is in powerup mode
+    //message sent when Pac-Man eats a power-up, a dot, or gets reset
     public static event Message EatPowerup;
     public static event Message EatDot;
     public static event Message PacReset;
 
+    //location for Pac-Man's respawn
     public Transform PacSpawn;
 
     private void Start()
     {
         //get character controller component
         _charControl = GetComponent<CharacterController>();
+        //subscribing to the ghosts' message about when to respawn
         GhostScript.PacKilled += Reset;
     }
 
@@ -62,7 +64,7 @@ public class PlayerScript : MonoBehaviour
             //pac-man's dot count is incremented and the dot is destroyed
             dotCount += 1;
             Destroy(other.gameObject);
-            Debug.Log(dotCount);
+            //Debug.Log(dotCount);
             if (EatDot != null) 
             {
                 EatDot();
@@ -81,6 +83,7 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+    //put Pac-Man back at his reset point when he is killed
     private void Reset()
     {
         transform.position = PacSpawn.position;
@@ -89,5 +92,11 @@ public class PlayerScript : MonoBehaviour
         {
             PacReset();
         }
+    }
+
+    //unsubscribe from messages just in case sometimes
+    private void OnApplicationQuit()
+    {
+        GhostScript.PacKilled -= Reset;
     }
 }

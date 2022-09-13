@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class ButtonScript : MonoBehaviour
 {
+    //simple script for buttons, loading the game and quitting the game
    public void StartGame() 
     {
         SceneManager.LoadScene("GameScene", LoadSceneMode.Single);
