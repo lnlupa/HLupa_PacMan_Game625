@@ -23,15 +23,30 @@ public class DisplayData : MonoBehaviour
     public Text LoseText;
     public Text WinText;
 
+    //buttons that appear onscreen
+    public GameObject QuitButton;
+    public GameObject RestartButton;
+
+    //message to reset the ghosts and pacman when the restart button is activated
+    public delegate void Message();
+    public static event Message ResetAll;
+
     // Start is called before the first frame update
     void Start()
     {
+        //setting up the UI variables
         ScoreObj = GameObject.FindGameObjectWithTag("ScoreText");
         LivesObj = GameObject.FindGameObjectWithTag("LivesText");
 
         ScoreText = ScoreObj.GetComponent<Text>();
         LivesText = LivesObj.GetComponent<Text>();
 
+        //set the buttons and endgame text to false to hide it
+        LoseText.enabled = false;
+        WinText.enabled = false;
+
+        QuitButton.SetActive(false);
+        RestartButton.SetActive(false);
 
         //messages the UI receives from each of the various scripts
         PlayerScript.EatDot += CountDots;
@@ -52,7 +67,7 @@ public class DisplayData : MonoBehaviour
         LivesText.text = "Lives: " + PacLives;
         if (PacLives <= 0)
         {
-            SceneManager.LoadScene("LoseScene", LoadSceneMode.Single);
+            LoseMode();
         }
     }
 
@@ -63,7 +78,7 @@ public class DisplayData : MonoBehaviour
         ScoreText.text = "Points: " + PacScore;
         if (PacScore >= PointThreshold) 
         {
-            SceneManager.LoadScene("WinScene", LoadSceneMode.Single);
+            WinMode();
         }
     }
 
@@ -73,7 +88,7 @@ public class DisplayData : MonoBehaviour
         ScoreText.text = "Points: " + PacScore;
         if (PacScore >= PointThreshold)
         {
-            SceneManager.LoadScene("WinScene", LoadSceneMode.Single);
+            WinMode();
         }
     }
 
@@ -83,7 +98,47 @@ public class DisplayData : MonoBehaviour
         ScoreText.text = "Points: " + PacScore;
         if (PacScore >= PointThreshold)
         {
-            SceneManager.LoadScene("WinScene", LoadSceneMode.Single);
+            WinMode();
+        }
+    }
+
+    //activate either win or lose text and buttons
+    private void WinMode() 
+    {
+        WinText.enabled = true;
+        QuitButton.SetActive(true);
+        RestartButton.SetActive(true);
+    }
+
+    private void LoseMode() 
+    {
+        LoseText.enabled = true;
+        QuitButton.SetActive(true);
+        RestartButton.SetActive(true);
+    }
+
+    //allow the quit button to quit
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+    //reset the ghosts, pacman, and dots, and hide the text to restart the game
+    public void FullReset() 
+    {
+        LoseText.enabled = false;
+        WinText.enabled = false;
+        QuitButton.SetActive(false);
+        RestartButton.SetActive(false);
+
+        PacScore = 0;
+        PacLives = 3;
+        ScoreText.text = "Points: " + PacScore;
+        LivesText.text = "Lives: " + PacLives;
+
+        if (ResetAll != null) 
+        {
+            ResetAll();
         }
     }
 

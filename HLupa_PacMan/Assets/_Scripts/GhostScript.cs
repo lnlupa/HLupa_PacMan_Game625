@@ -47,6 +47,7 @@ public class GhostScript : MonoBehaviour
         //subscribe to Pac-Man's messages about eating powerups
         PlayerScript.EatPowerup += FearModeOn;
         PlayerScript.PacReset += Reset;
+        DisplayData.ResetAll += Reset;
 
         //get the ghost's light and turn it off until they enter fear mode
         GhostLight = GetComponent<Light>();
@@ -60,7 +61,7 @@ public class GhostScript : MonoBehaviour
         {
             //turn on the fear mode light
             GhostLight.enabled = true;
-            Debug.Log("ghosts in fear mode");
+            //Debug.Log("ghosts in fear mode");
             //Debug.LogError(currentPoint);
             RunFrom();
             //check the fear mode timer
@@ -74,9 +75,7 @@ public class GhostScript : MonoBehaviour
             }
             //Debug.LogWarning(TimeRemaining);
         }
-
-        //otherwise they run toward Pac-Man with lights off and fear mode reset
-        else 
+        else
         {
             RunTo();
             TimeRemaining = 10;
@@ -158,6 +157,7 @@ public class GhostScript : MonoBehaviour
     public void Reset()
     {
         transform.position = respawnPoint.transform.position;
+        FearMode = false;
     }
 
     //unsubscribe from the events on quit just in case
@@ -165,5 +165,6 @@ public class GhostScript : MonoBehaviour
     {
         PlayerScript.EatPowerup -= FearModeOn;
         PlayerScript.PacReset -= Reset;
+        DisplayData.ResetAll -= Reset;
     }
 }

@@ -27,12 +27,22 @@ public class PlayerScript : MonoBehaviour
     //location for Pac-Man's respawn
     public Transform PacSpawn;
 
+    //lists of dots and powerups
+    public GameObject[] Dots;
+    public GameObject[] Power;
+
     private void Start()
     {
         //get character controller component
         _charControl = GetComponent<CharacterController>();
         //subscribing to the ghosts' message about when to respawn
         GhostScript.PacKilled += Reset;
+        DisplayData.ResetAll += ResetAll;
+
+
+        //get the dots and powerups in lists so we can reset them at restart
+        Dots = GameObject.FindGameObjectsWithTag("Snack");
+        Power = GameObject.FindGameObjectsWithTag("Powerup");
     }
 
     // Update is called once per frame
@@ -61,9 +71,10 @@ public class PlayerScript : MonoBehaviour
         //if the pick-up item is a basic dot/snack
         if (other.CompareTag("Snack")) 
         {
-            //pac-man's dot count is incremented and the dot is destroyed
+            GameObject dot = other.gameObject;
+            dot.SetActive(false);
+            //pac-man's dot count is incremented and the dot is turned off
             dotCount += 1;
-            Destroy(other.gameObject);
             //Debug.Log(dotCount);
             if (EatDot != null) 
             {
@@ -74,10 +85,11 @@ public class PlayerScript : MonoBehaviour
         //if the pick-up is a powerup
         if (other.CompareTag("Powerup")) 
         {
+            GameObject power = other.gameObject;
+            power.SetActive(false);
             if (EatPowerup != null) 
             {
-                //destroy the powerup and send out the message that the powerup was consumed
-                Destroy(other.gameObject);
+                //send out the message that the powerup was consumed
                 EatPowerup();
             }
         }
@@ -94,9 +106,25 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    //unsubscribe from messages just in case sometimes
+    //reset Pacman and the dots between games
+    private void ResetAll() 
+    {
+        transform.position = PacSpawn.position;
+        pacMan.SetActive(true);
+        foreach (GameObject Dot in Dots) 
+        {
+            Dot.SetActive(true);
+        }
+        foreach (GameObject Pow in Power) 
+        {
+            Pow.SetActive(true);
+        }
+    }
+
+    //unsubscribe from messages just in case
     private void OnApplicationQuit()
     {
         GhostScript.PacKilled -= Reset;
+        DisplayData.ResetAll -= ResetAll;
     }
 }
